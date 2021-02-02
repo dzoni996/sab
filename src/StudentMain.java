@@ -23,19 +23,6 @@ public class StudentMain {
         ShopOperations shopOperations = new dn150395_ShopOperation(connectionUrl);
         TransactionOperations transactionOperations = new dn150395_TransactionOperation(connectionUrl);
 
-//
-//        Calendar c = Calendar.getInstance();
-//        c.clear();
-//        c.set(2010, Calendar.JANUARY, 01);
-//
-//
-//        Calendar c2 = Calendar.getInstance();
-//        c2.clear();
-//        c2.set(2010, Calendar.JANUARY, 01);
-//
-//        if(c.equals(c2)) System.out.println("jednako");
-//        else System.out.println("nije jednako");
-
         TestHandler.createInstance(
                 articleOperations,
                 buyerOperations,
